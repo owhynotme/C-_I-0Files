@@ -6,20 +6,12 @@ int main()
 {
     string name, str;
 
-    // cout << "Enter your Name\n";
-    // cin >> name;
-    // ofstream out("Sample_output.txt");
-    // out << name;
+    cout << "Enter your Name\n";
+    cin >> name;
+    ofstream out("Sample_output.txt");
+    out << name;
 
-    // out.close(); // Close the File
-
-    // Reading the Same file
-
-    ifstream in("Sample_Output.txt");
-    cout<<"Reading from file\n";
-    getline(in,str);
-    cout << str;
-    in.close();
+    out.close(); // Close the File
 
     return 0;
 }
