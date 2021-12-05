@@ -7,7 +7,7 @@ int main()
     string names, str2;
 
     ofstream out;
-    out.open("Sample_IO_Mix.txt");
+    out.open("Sample_IO_Mix.txt",ios::app);
     cout << " Output \n\n";
     for (int i = 1; i <= 4; i++)
     {
